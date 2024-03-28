@@ -3207,11 +3207,13 @@ header .header-cart-icon .cart-count { position: absolute; top: -6px; right: -10
 .slider-custom-image-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active { opacity: 1; -webkit-filter: grayscale(0); filter: grayscale(0); -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s;}
 .slider-custom-image-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, .slider-custom-image-pagination .swiper-pagination-bullet:hover {transform: scale(1.1, 1.1); -moz-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); -ms-transform: scale(1.1, 1.1); -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -ms-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s;}
 
+/*
 .white-move .swiper-slide, .white-move .swiper-wrapper { cursor: url("../images/icon-move-light.png"), move; }
 .black-move .swiper-slide, .black-move .swiper-wrapper { cursor: url("../images/icon-move-black.png"), move; }
 
 .vertical-white-move .swiper-slide, .vertical-white-move .swiper-wrapper { cursor: url("../images/vertical-icon-move-light.png"), move; }
 .vertical-black-move .swiper-slide, .vertical-black-move .swiper-wrapper { cursor: url("../images/vertical-icon-move-black.png"), move; }
+*/
 
 .swiper-pagination-medium .swiper-pagination-bullet{ width: 10px; height: 10px; }
 .swiper-pagination-medium .swiper-pagination-bullet-active{ width: 16px; height: 16px; }
