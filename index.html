@@ -11,17 +11,17 @@
 
       lang = lang.toLowerCase().substring(0, 2);
 
-      if (lang == "ko")
-        location.href = "https://www.paracom.co.kr/ko/index.html";
-      else if (lang == "cn")
-        location.href = "https://www.paracom.co.kr/cn/index.html";
-      else if (lang == "zh")
-        location.href = "https://www.paracom.co.kr/zh/index.html";
-      else if (lang == "th")
-        location.href = "https://www.paracom.co.kr/th/index.html";
-      else if (lang == "en")
-        location.href = "https://www.paracom.co.kr/en/index.html";
-      // else location.href = "https://www.paracom.co.kr/ko/index.html";
+      // console.log("lang : ", lang);
+
+      if (lang == "cn") {
+        window.location.replace("cn/index.html");
+      } else if (lang == "zh") {
+        window.location.replace("zh/index.html");
+      } else if (lang == "th") {
+        window.location.replace("th/index.html");
+      } else if (lang == "en") {
+        window.location.replace("en/index.html");
+      }
       -->
     </script>
     <!-- end check a browser language -->
@@ -137,6 +137,18 @@
                   <a href="network/network.html" class="nav-link"
                     >글로벌 네트워크</a
                   >
+                </li>
+                <li class="nav-item dropdown simple-dropdown">
+                  <a href="#" class="nav-link">언어</a>
+                  <i
+                    class="fa fa-angle-down dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-hidden="true"
+                  ></i>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="zh/index.html">中文</a></li>
+                    <li><a href="th/index.html">แบบไทย</a></li>
+                  </ul>
                 </li>
               </ul>
             </div>
