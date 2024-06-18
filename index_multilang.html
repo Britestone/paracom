@@ -9,6 +9,8 @@
       if (navigator.language != null)
         lang = navigator.language || navigator.userLanguage;
 
+      lang = lang.toLowerCase().substring(0.2);
+
       if (lang == "ko")
         location.href = "https://www.paracom.co.kr/ko/index.html";
       else if (lang == "cn")
