@@ -9,18 +9,26 @@
       if (navigator.language != null)
         lang = navigator.language || navigator.userLanguage;
 
-      lang = lang.toLowerCase().substring(0.2);
+      console.log("lang 1 : ", lang);
+
+      lang = lang.toLowerCase().substring(0, 2);
+
+      console.log("lang 2 : ", lang);
 
       if (lang == "ko")
         location.href = "https://www.paracom.co.kr/ko/index.html";
       else if (lang == "cn")
         location.href = "https://www.paracom.co.kr/cn/index.html";
+      else if (lang == "zh")
+        location.href = "https://www.paracom.co.kr/zh/index.html";
       else if (lang == "th")
         location.href = "https://www.paracom.co.kr/th/index.html";
       else if (lang == "en")
         location.href = "https://www.paracom.co.kr/en/index.html";
+      // else location.href = "https://www.paracom.co.kr/ko/index.html";
       -->
     </script>
+    <!-- end check a browser language -->
 
     <title>VMI Business | Paracom</title>
     <meta charset="utf-8" />
@@ -52,8 +60,6 @@
   </head>
 
   <body data-mobile-nav-style="classic">
-    <!-- end check a browser language -->
-
     <!--start header-->
     <header>
       <!-- start navigation -->
