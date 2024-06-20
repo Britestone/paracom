@@ -10401,7 +10401,7 @@ header .navbar.responsive-sticky .navbar-brand img,
 .sidebar-nav-menu {
   position: absolute;
   height: 100%;
-  width: 290px;
+  width: 100px;
   border-right: 1px solid #f3f3f3;
   overflow-y: auto;
   z-index: 10005;
@@ -10416,7 +10416,7 @@ header .navbar.responsive-sticky .navbar-brand img,
 .menu-style-2 .sidebar-nav-menu {
   position: fixed;
   height: 100%;
-  width: 380px;
+  width: 100px;
   border-right: none;
   overflow-y: auto;
   z-index: 10005;
@@ -10505,7 +10505,7 @@ header .navbar.responsive-sticky .navbar-brand img,
 }
 .sidebar-nav-menu.left-sidebar-nav {
   position: fixed;
-  width: 290px;
+  width: 100px;
   overflow: hidden;
   height: inherit;
 }
@@ -10556,7 +10556,7 @@ header .navbar.responsive-sticky .navbar-brand img,
 .sidebar-nav {
   position: fixed;
   height: 100%;
-  width: 290px;
+  width: 100px;
   border-right: 1px solid #f3f3f3;
   z-index: 10005;
   top: 0;
@@ -10576,7 +10576,7 @@ header .navbar.responsive-sticky .navbar-brand img,
 header.side-menu-nav {
   position: absolute;
   left: 0;
-  width: 290px;
+  width: 100px;
   top: -100%;
   min-height: 100vh;
   bottom: 0;
@@ -10587,7 +10587,7 @@ header.side-menu-nav {
   position: relative;
   min-height: 300px;
   width: 100%;
-  padding-left: 290px;
+  padding-left: 100px;
 }
 
 /* header toggle button */
@@ -11152,7 +11152,7 @@ header .header-cart-icon .cart-count {
   position: fixed;
   bottom: 0;
   right: -100%;
-  width: 500px;
+  width: 100px;
   height: 100vh;
   z-index: 1060;
   -webkit-transition-duration: 0.3s;
@@ -11557,7 +11557,7 @@ header .header-cart-icon .cart-count {
   padding-right: 50px;
 }
 .nav-item.dropdown.megamenu img {
-  max-width: 210px;
+  max-width: 110px;
 }
 
 /* simple dropdown */
@@ -11705,7 +11705,7 @@ header .header-cart-icon .cart-count {
   border-radius: 6px;
   border: 0;
   margin: 0;
-  min-width: 140px;
+  min-width: 100px;
 }
 .header-language .dropdown-menu a {
   color: #828282;
